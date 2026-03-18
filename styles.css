@@ -1,0 +1,51 @@
+/*Reset all margins and padding on the page*/
+
+/* --PRESENT STACK --*/
+
+/*Make the width of the outer box be 50%. Put margins around this parent box to separate it from the other activities.*/
+#present-stack {
+}
+
+/*Make the width of the top present be 25% of the parent width. Add some padding to make it look more like a present. Change the colors if you want. Set the margin to auto to center the present in the parent.*/
+#top {
+  border: 10px solid blue;
+  background-color: lightblue;
+}
+
+/*Make the width of the middle present be 50% of the parent width. Add some padding to make it look more like a present. Change the colors if you want. Set the margin to auto to center the present in the parent.*/
+#middle {
+  border: 10px solid red;
+  background-color: pink;
+}
+
+/*Make the width of the bottom present be 75% of the parent width. Add some padding to make it look more like a present. Change the colors if you want. Set the margin to auto to center the present in the parent.*/
+#bottom {
+  border: 10px solid green;
+  background-color: lightgreen;
+}
+
+/* --FLEX BOX-- */
+
+/*Make this box a flex blox using display:flex; Set the flex-direction to reverse. Justify the content to space around. Put margins around this box to separate it from the other activities.*/
+#flex {
+}
+
+/*Optional: change the colors below*/
+#flex h1 {
+  background-color: bisque;
+  border: 10px solid goldenrod;
+}
+
+/* --RUSSIAN DOLLS-- */
+
+/*Give this box a small amount of padding. Add a margin to the outer box to separate it from other activities.*/
+#outer-box {
+  background-color: plum;
+  border: 5px solid purple;
+}
+
+/*Give this box obviously more padding than the outer box. Change the coors if you want.*/
+.inner-box {
+  background-color: darkseagreen;
+  border: 5px solid darkblue;
+}
