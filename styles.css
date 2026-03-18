@@ -1,5 +1,8 @@
 /*Reset all margins and padding on the page*/
-
+* {
+    margin: 0;
+    padding: 0;
+}
 /* --PRESENT STACK --*/
 
 /*Make the width of the outer box be 50%. Put margins around this parent box to separate it from the other activities.*/
